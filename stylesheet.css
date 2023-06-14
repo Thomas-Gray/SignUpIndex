@@ -1,11 +1,83 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fade-in-short {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-long {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 h1{
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open_sansregular', sans-serif;
+  font-size:3vmax;
   text-align: center;
 }
 p{
-  color: blue;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open_sansregular', sans-serif;
+  text-align: center;
+  font-size:1vmax;
+}
+table {
+  border-collapse: collapse;
+  align
+}
+th, td{
+  font-family: 'open_sansregular', sans-serif;
+  text-align: center;
+  font-size:1vmax;
+  border: 2px solid black;
+  padding: 0.25vmax;
+}
+th {
+  font-style: bold;
+}
+td {
+
 }
