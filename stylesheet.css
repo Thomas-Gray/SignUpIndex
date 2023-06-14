@@ -1,0 +1,11 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+h1{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+p{
+  color: blue;
+  font-family: 'Open Sans', sans-serif;
+}
